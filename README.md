@@ -1,2 +1,2 @@
-# AiDevOps-M3_P2
-Aidevops inference pipeline
+# aidevops-inference2
+Inference code for aidevops 
