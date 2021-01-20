@@ -30,7 +30,7 @@ name=['name']
 #bucketname = 'sagemaker-aidevops' # replace with your bucket name
 bucketname =  'cop-group10' # replace with your bucket name
 
-filename = 'Dhiraj_M3_P2/vedio-out/sample0.jpg' # replace with your object key
+filename = 'Dhiraj_M3_P2/vedio-out/sample.jpg' # replace with your object key
 s3 = boto3.resource('s3')
 s3.Bucket(bucketname).download_file(filename, 'sample.jpg')
 
